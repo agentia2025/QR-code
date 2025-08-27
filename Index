@@ -23,6 +23,7 @@
   </style>
 </head>
 <body>
+  <!-- Page 1 : Saisie du lien -->
   <div class="container" id="page1">
     <form id="formLink">
       <label for="inputLink">Colle ton lien ici :</label>
@@ -31,6 +32,7 @@
     </form>
   </div>
 
+  <!-- Page 2 : Affichage QR Code -->
   <div class="container" id="page2" style="display:none;">
     <h2>Page à imprimer</h2>
     <div class="qrbox" id="qrCode"></div>
